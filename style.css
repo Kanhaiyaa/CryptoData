@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(23, 22, 22);
+    color: #ddd;
+    /* text-align: center; */
+    border-bottom: 1px solid black;
+    padding: 8px;
+    border-collapse: collapse;
+    border-top: none;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #ebeff3;
+    color: #0e0d0d;
+    border: none;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 50%;
+    border-collapse: collapse;
+    /* text-align: center; */
+    /* justify-content: center; */
+    text-align: center;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #595656;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #494848;
+  }
+  
